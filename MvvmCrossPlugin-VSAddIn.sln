@@ -96,7 +96,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", 
 		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\MvvmCrossPlugin_VSAddIn.UWP.rd.xml = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\MvvmCrossPlugin_VSAddIn.UWP.rd.xml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSIX", "VSIX", "{D2EB2715-C595-4392-B771-80D869F4AE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCrossPlugin-VSAddIn", "MVVMCrossPlugin-VSAddIn\MVVMCrossPlugin-VSAddIn.csproj", "{4466D661-016B-40C3-AA3E-74F134991300}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4466D661-016B-40C3-AA3E-74F134991300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4466D661-016B-40C3-AA3E-74F134991300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4466D661-016B-40C3-AA3E-74F134991300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4466D661-016B-40C3-AA3E-74F134991300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -113,5 +127,6 @@ Global
 		{75C885C1-4986-4548-81AA-0AE496F8B6C6} = {21F190DA-4473-4007-B69D-740A89CB0BDE}
 		{99F50615-A420-4BA8-BD8E-34707823F279} = {5C163A97-DEFD-483A-9796-9FF0D066F29C}
 		{1BA8DC60-A10D-42F1-B959-6F6AD4244835} = {7734852D-7704-4960-9BD1-ED0AE80C5D1D}
+		{4466D661-016B-40C3-AA3E-74F134991300} = {D2EB2715-C595-4392-B771-80D869F4AE2B}
 	EndGlobalSection
 EndGlobal
