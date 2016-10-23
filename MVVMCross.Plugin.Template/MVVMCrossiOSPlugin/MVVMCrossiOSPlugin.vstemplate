@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MVVMCross iOS Plugin</Name>
+    <Description>An MVVMCross iOS Plugin</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>iOS</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MVVMCross iOS Plugin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.iOS.csproj" File="MvvmCrossPlugin-VSAddIn.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Plugin.cs">Plugin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mvx$ext_safeprojectname$.cs">MvxSomething.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MVVMCross UWP Plugin</Name>
+    <Description>An MvvmCross Plugin for UWP Apps</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MVVMCross UWP Plugin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.UWP.csproj" File="MvvmCrossPlugin-VSAddIn.UWP.csproj" ReplaceParameters="true">
+      
+      <ProjectItem ReplaceParameters="false" TargetFileName="project.json">project.json</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.rd.xml">MvvmCrossPlugin_VSAddIn.UWP.rd.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Plugin.cs">Plugin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mvx$ext_safeprojectname$.cs">MvxSomething.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

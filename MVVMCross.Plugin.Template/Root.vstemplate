@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>MvvmCross Plugin</Name>
+    <Description>A cross-platform MvvmCross Plugin</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>MvvmCross</ProjectSubType>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+		  <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+            MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Core" CopyParameters="true">
+            MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+            MVVMCrossiOSPlugin\MVVMCrossiOSPlugin.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+            MVVMCrossUWPPlugin\MVVMCrossUWPPlugin.vstemplate
+        </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsCommon" CopyParameters="true">
+            MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

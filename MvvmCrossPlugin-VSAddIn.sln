@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{DA4F3B43-6174-4617-9087-E750C8788119}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\__TemplateIcon.png = MVVMCross.Plugin.Template\__TemplateIcon.png
+		MVVMCross.Plugin.Template\Root.vstemplate = MVVMCross.Plugin.Template\Root.vstemplate
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMCrossCorePCL", "MVVMCrossCorePCL", "{1986F52E-1D4B-4A39-A616-28866B70397B}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\__TemplateIcon.png = MVVMCross.Plugin.Template\MVVMCrossCorePCL\__TemplateIcon.png
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\IMvxSomething.cs = MVVMCross.Plugin.Template\MVVMCrossCorePCL\IMvxSomething.cs
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate = MVVMCross.Plugin.Template\MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\MvvmCrossPlugin-VSAddIn.Core.csproj = MVVMCross.Plugin.Template\MVVMCrossCorePCL\MvvmCrossPlugin-VSAddIn.Core.csproj
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\packages.config = MVVMCross.Plugin.Template\MVVMCrossCorePCL\packages.config
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\PluginLoader.cs = MVVMCross.Plugin.Template\MVVMCrossCorePCL\PluginLoader.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMCrossAndroidPlugin", "MVVMCrossAndroidPlugin", "{61574456-A220-4EDF-AE64-F5F003C52174}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\__TemplateIcon.png = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\__TemplateIcon.png
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MvvmCrossPlugin-VSAddIn.Droid.csproj = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MvvmCrossPlugin-VSAddIn.Droid.csproj
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MvxSomething.cs = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\MvxSomething.cs
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\packages.config = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\packages.config
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Plugin.cs = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Plugin.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMCrossiOSPlugin", "MVVMCrossiOSPlugin", "{21F190DA-4473-4007-B69D-740A89CB0BDE}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\__TemplateIcon.png = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\__TemplateIcon.png
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MVVMCrossiOSPlugin.vstemplate = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MVVMCrossiOSPlugin.vstemplate
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MvvmCrossPlugin-VSAddIn.iOS.csproj = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MvvmCrossPlugin-VSAddIn.iOS.csproj
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MvxSomething.cs = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\MvxSomething.cs
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\packages.config = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\packages.config
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\Plugin.cs = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\Plugin.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMCrossUWPPlugin", "MVVMCrossUWPPlugin", "{7734852D-7704-4960-9BD1-ED0AE80C5D1D}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\__TemplateIcon.png = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\__TemplateIcon.png
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MvvmCrossPlugin-VSAddIn.UWP.csproj = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MvvmCrossPlugin-VSAddIn.UWP.csproj
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MVVMCrossUWPPlugin.vstemplate = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MVVMCrossUWPPlugin.vstemplate
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MvxSomething.cs = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\MvxSomething.cs
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Plugin.cs = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Plugin.cs
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\project.json = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\project.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVMCrossWindowsCommonPlugin", "MVVMCrossWindowsCommonPlugin", "{5C163A97-DEFD-483A-9796-9FF0D066F29C}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\__TemplateIcon.png = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\__TemplateIcon.png
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MvvmCrossPlugin-VSAddIn.WindowsCommon.csproj = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MvvmCrossPlugin-VSAddIn.WindowsCommon.csproj
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MvxSomething.cs = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\MvxSomething.cs
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\packages.config = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\packages.config
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\Plugin.cs = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\Plugin.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{62814777-17A6-4A09-A648-F0A9FAAB9546}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossCorePCL\Properties\AssemblyInfo.cs = MVVMCross.Plugin.Template\MVVMCrossCorePCL\Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{8098E7CA-364A-435E-B0A1-F5EAD560469A}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Properties\AssemblyInfo.cs = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{C7848020-E405-415C-A131-2924AC0DCC91}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\AboutResources.txt = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\AboutResources.txt
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\Resource.Designer.cs = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\Resource.Designer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Values", "Values", "{30398A68-CB7E-4EBD-AEBC-3A1B350B9C5E}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\Values\Strings.xml = MVVMCross.Plugin.Template\MVVMCrossAndroidPlugin\Resources\Values\Strings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{75C885C1-4986-4548-81AA-0AE496F8B6C6}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\Properties\AssemblyInfo.cs = MVVMCross.Plugin.Template\MVVMCrossiOSPlugin\Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{99F50615-A420-4BA8-BD8E-34707823F279}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\Properties\AssemblyInfo.cs = MVVMCross.Plugin.Template\MVVMCrossWindowsCommonPlugin\Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{1BA8DC60-A10D-42F1-B959-6F6AD4244835}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\AssemblyInfo.cs = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\AssemblyInfo.cs
+		MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\MvvmCrossPlugin_VSAddIn.UWP.rd.xml = MVVMCross.Plugin.Template\MVVMCrossUWPPlugin\Properties\MvvmCrossPlugin_VSAddIn.UWP.rd.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1986F52E-1D4B-4A39-A616-28866B70397B} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{61574456-A220-4EDF-AE64-F5F003C52174} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{21F190DA-4473-4007-B69D-740A89CB0BDE} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{7734852D-7704-4960-9BD1-ED0AE80C5D1D} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{5C163A97-DEFD-483A-9796-9FF0D066F29C} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{62814777-17A6-4A09-A648-F0A9FAAB9546} = {1986F52E-1D4B-4A39-A616-28866B70397B}
+		{8098E7CA-364A-435E-B0A1-F5EAD560469A} = {61574456-A220-4EDF-AE64-F5F003C52174}
+		{C7848020-E405-415C-A131-2924AC0DCC91} = {61574456-A220-4EDF-AE64-F5F003C52174}
+		{30398A68-CB7E-4EBD-AEBC-3A1B350B9C5E} = {C7848020-E405-415C-A131-2924AC0DCC91}
+		{75C885C1-4986-4548-81AA-0AE496F8B6C6} = {21F190DA-4473-4007-B69D-740A89CB0BDE}
+		{99F50615-A420-4BA8-BD8E-34707823F279} = {5C163A97-DEFD-483A-9796-9FF0D066F29C}
+		{1BA8DC60-A10D-42F1-B959-6F6AD4244835} = {7734852D-7704-4960-9BD1-ED0AE80C5D1D}
+	EndGlobalSection
+EndGlobal
