@@ -1,6 +1,6 @@
 ﻿namespace $safeprojectname$
 {
-    public interface IMvx$ext_safeprojectname$
+    public interface IMvx$ext_pluginname$
 
     {
         

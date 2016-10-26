@@ -25,4 +25,8 @@
         </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVVMCrossPlugin_VSAddIn, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=3f94b09ce8502345</Assembly>
+    <FullClassName>MVVMCrossPlugin_VSAddIn.ProjectWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

@@ -8,7 +8,7 @@ namespace $safeprojectname$
     {
         public void Load()
         {
-            Mvx.RegisterSingleton<IMvx$ext_safeprojectname$>(new Mvx$ext_safeprojectname$());
+            Mvx.RegisterSingleton<IMvx$ext_pluginname$>(new Mvx$ext_pluginname$());
         }
     }
 }

@@ -19,7 +19,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="Plugin.cs">Plugin.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Mvx$ext_safeprojectname$.cs">MvxSomething.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Mvx$ext_pluginname$.cs">MvxSomething.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
