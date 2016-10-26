@@ -100,6 +100,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSIX", "VSIX", "{D2EB2715-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCrossPlugin-VSAddIn", "MVVMCrossPlugin-VSAddIn\MVVMCrossPlugin-VSAddIn.csproj", "{4466D661-016B-40C3-AA3E-74F134991300}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{2DACE03F-A0A1-4565-8FDD-480D487A2BC4}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\Nuget\__TemplateIcon.png = MVVMCross.Plugin.Template\Nuget\__TemplateIcon.png
+		MVVMCross.Plugin.Template\Nuget\MvvmCrossPlugin-VSAddIn.Nuget.csproj = MVVMCross.Plugin.Template\Nuget\MvvmCrossPlugin-VSAddIn.Nuget.csproj
+		MVVMCross.Plugin.Template\Nuget\Nuget.vstemplate = MVVMCross.Plugin.Template\Nuget\Nuget.vstemplate
+		MVVMCross.Plugin.Template\Nuget\pack.ps1 = MVVMCross.Plugin.Template\Nuget\pack.ps1
+		MVVMCross.Plugin.Template\Nuget\Plugin.nuspec = MVVMCross.Plugin.Template\Nuget\Plugin.nuspec
+		MVVMCross.Plugin.Template\Nuget\Program.cs = MVVMCross.Plugin.Template\Nuget\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IosBootstrapContent", "IosBootstrapContent", "{7C5F1E33-1806-41C0-88C8-C83A4E0F7A53}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\Nuget\IosBootstrapContent\MvvmCrossPluginBootstrap.cs.pp = MVVMCross.Plugin.Template\Nuget\IosBootstrapContent\MvvmCrossPluginBootstrap.cs.pp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BootstrapContent", "BootstrapContent", "{9BBF4884-E603-4C40-BB16-84B1B0233079}"
+	ProjectSection(SolutionItems) = preProject
+		MVVMCross.Plugin.Template\Nuget\BootstrapContent\MvvmCrossPluginBootstrap.cs.pp = MVVMCross.Plugin.Template\Nuget\BootstrapContent\MvvmCrossPluginBootstrap.cs.pp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,5 +148,8 @@ Global
 		{99F50615-A420-4BA8-BD8E-34707823F279} = {5C163A97-DEFD-483A-9796-9FF0D066F29C}
 		{1BA8DC60-A10D-42F1-B959-6F6AD4244835} = {7734852D-7704-4960-9BD1-ED0AE80C5D1D}
 		{4466D661-016B-40C3-AA3E-74F134991300} = {D2EB2715-C595-4392-B771-80D869F4AE2B}
+		{2DACE03F-A0A1-4565-8FDD-480D487A2BC4} = {DA4F3B43-6174-4617-9087-E750C8788119}
+		{7C5F1E33-1806-41C0-88C8-C83A4E0F7A53} = {2DACE03F-A0A1-4565-8FDD-480D487A2BC4}
+		{9BBF4884-E603-4C40-BB16-84B1B0233079} = {2DACE03F-A0A1-4565-8FDD-480D487A2BC4}
 	EndGlobalSection
 EndGlobal

@@ -23,6 +23,9 @@
         <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsCommon" CopyParameters="true">
             MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate
         </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Nuget" CopyParameters="true">
+          Nuget\Nuget.vstemplate
+        </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
   <WizardExtension>

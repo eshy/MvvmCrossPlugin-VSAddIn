@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MVVMCross Plugin Nuget Files</Name>
+    <Description>Files to create a nuget package for an MvvmCross Plugin</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MVVMCross Plugin Nuget Files</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.Nuget.csproj" File="MvvmCrossPlugin-VSAddIn.Nuget.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.nuspec">Plugin.nuspec</ProjectItem>
+      <Folder Name="BootstrapContent" TargetFolderName="BootstrapContent">
+        <ProjectItem ReplaceParameters="true" TargetFileName="$ext_pluginname$PluginBootstrap.cs.pp">MvvmCrossPluginBootstrap.cs.pp</ProjectItem>
+      </Folder>
+      <Folder Name="IosBootstrapContent" TargetFolderName="IosBootstrapContent">
+        <ProjectItem ReplaceParameters="true" TargetFileName="$ext_pluginname$PluginBootstrap.cs.pp">MvvmCrossPluginBootstrap.cs.pp</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="pack.ps1">pack.ps1</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
