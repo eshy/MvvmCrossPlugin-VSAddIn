@@ -11,7 +11,7 @@
 		  <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
             MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate
         </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Core" CopyParameters="true">
+        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
             MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
         </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">

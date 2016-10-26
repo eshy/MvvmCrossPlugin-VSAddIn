@@ -1,4 +1,3 @@
-using $ext_safeprojectname$.Core;
 
 namespace $safeprojectname$
 {

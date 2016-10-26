@@ -19,33 +19,33 @@
 	<files>
 
 		<!-- PCL -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\portable-net45+win+wpa81+wp80" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\portable-net45+win+wpa81+wp80" />
 
 		<!-- dotnet -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\dotnet" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\dotnet" />
 
 		<!-- windows common -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\win81" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\win81" />
 		<file src="..\Release\WindowsCommon\$ext_safeprojectname$.WindowsCommon.*" target="lib\win81" />
 		<file src="BootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" target="content\win81\Bootstrap\$ext_pluginname$PluginBootstrap.cs.pp" />
 
 		<!-- windows Phone 8.1 -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\wpa81" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\wpa81" />
 		<file src="..\Release\WindowsCommon\$ext_safeprojectname$.WindowsCommon.*" target="lib\wpa81" />
 		<file src="BootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" target="content\wpa81\Bootstrap\$ext_pluginname$PluginBootstrap.cs.pp" />
 
     <!-- uwp -->
-    <file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\uap" />
+    <file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\uap" />
     <file src="..\Release\UWP\$ext_safeprojectname$.UWP.*" target="lib\uap" />
     <file src="BootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" target="content\uap\Bootstrap\$ext_pluginname$PluginBootstrap.cs.pp" />
 
     <!-- droid -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\MonoAndroid" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\MonoAndroid" />
 		<file src="..\Release\Droid\$ext_safeprojectname$.Droid.*" target="lib\MonoAndroid" />
 		<file src="BootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" target="content\MonoAndroid\Bootstrap\$ext_pluginname$PluginBootstrap.cs.pp" />
 
 		<!-- iOS -->
-		<file src="..\Release\Portable\$ext_safeprojectname$.Core.*" target="lib\Xamarin.iOS10" />
+		<file src="..\Release\Portable\$ext_safeprojectname$.*" target="lib\Xamarin.iOS10" />
 		<file src="..\Release\iOS\$ext_safeprojectname$.iOS.*" target="lib\Xamarin.iOS10" />
 		<file src="iOSBootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" target="content\Xamarin.iOS10\Bootstrap\$ext_pluginname$PluginBootstrap.cs.pp" />
 

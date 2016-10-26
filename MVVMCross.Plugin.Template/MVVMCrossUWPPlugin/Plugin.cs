@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Platform;
 using MvvmCross.Platform.Plugins;
-using $ext_safeprojectname$.Core;
+
 
 namespace $safeprojectname$
 {

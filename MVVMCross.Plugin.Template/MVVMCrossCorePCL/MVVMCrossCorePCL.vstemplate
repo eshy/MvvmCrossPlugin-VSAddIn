@@ -14,7 +14,7 @@
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.Core.csproj" File="MvvmCrossPlugin-VSAddIn.Core.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.csproj" File="MvvmCrossPlugin-VSAddIn.Core.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="PluginLoader.cs">PluginLoader.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="IMvx$ext_pluginname$.cs">IMvxSomething.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
