@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{530AD12B-98A1-44D9-8210-D7DDD604F36E}</ProjectGuid>
+    <ProjectGuid>{$guid5$}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>$safeprojectname$</RootNamespace>
@@ -114,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$.Core\$ext_safeprojectname$.Core.csproj">
-      <Project>{6765cf3c-5849-4995-9d36-bc9ff9f6258f}</Project>
+      <Project>{$guid1$}</Project>
       <Name>$ext_safeprojectname$.Core</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,7 +5,7 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9AB48CD-8299-49E7-A6B3-8C4394DB0B29}</ProjectGuid>
+    <ProjectGuid>{$guid4$}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>$safeprojectname$</RootNamespace>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$.Core\$ext_safeprojectname$.Core.csproj">
-      <Project>{6765cf3c-5849-4995-9d36-bc9ff9f6258f}</Project>
+      <Project>{$guid1$}</Project>
       <Name>$ext_safeprojectname$.Core</Name>
     </ProjectReference>
   </ItemGroup>
