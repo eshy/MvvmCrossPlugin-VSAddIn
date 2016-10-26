@@ -1,5 +1,1 @@
-# MvvmCrossPlugin-VSAddIn
-##A Visual Studio add-in for creating MvvmCross Plugin solutions
-
-This project is based on the MvvmCross Application template created by Jim Bennett
-https://github.com/jimbobbennett/MvvmCross-VisualStudioAddIn
+# MvvmCrossPlugin-VSAddIn##A Visual Studio add-in for creating MvvmCross Plugin solutionsYou can install the extension from the visual studio gallery:https://visualstudiogallery.msdn.microsoft.com/11411ac6-ecbd-48aa-bf1b-40f5fe87b1a2When you install this extension a project template will be added under Visual C#\MvvmCross.The template will create a solution with a PCL Core project and platform specific projects for Android, iOS, Windows Common (Windows and Windows Phone 8.1) and UWP. The template will also create a Nuget project with the files necessary to create a package for your plugin. This project won't build and should be excluded from build (or removed from the solution)This project is based on the MvvmCross Application template created by Jim Bennetthttps://github.com/jimbobbennett/MvvmCross-VisualStudioAddIn
