@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="MVVMCrossPlugin_VSAddIn.IshaiHachlili" Version="1.2.0" Language="en-US" Publisher="Ishai Hachlili" />
+    <Identity Id="MVVMCrossPlugin_VSAddIn.IshaiHachlili" Version="1.2.1" Language="en-US" Publisher="Ishai Hachlili" />
     <DisplayName>MvvmCross Plugin Template for Visual Studio</DisplayName>
     <Description xml:space="preserve">A Visual Studio add-in to create an MvvmCross plug-in solution</Description>
     <License>license.txt</License>
