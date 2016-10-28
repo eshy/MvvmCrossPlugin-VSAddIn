@@ -8,24 +8,24 @@
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-		  <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
-            MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-            MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
-            MVVMCrossiOSPlugin\MVVMCrossiOSPlugin.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
-            MVVMCrossUWPPlugin\MVVMCrossUWPPlugin.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsCommon" CopyParameters="true">
-            MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Nuget" CopyParameters="true">
-          Nuget\Nuget.vstemplate
-        </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        MVVMCrossCorePCL\MVVMCrossCorePCL.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+        MVVMCrossAndroidPlugin\MVVMCrossAndroidPlugin.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+        MVVMCrossiOSPlugin\MVVMCrossiOSPlugin.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+        MVVMCrossUWPPlugin\MVVMCrossUWPPlugin.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsCommon" CopyParameters="true">
+        MVVMCrossWindowsCommonPlugin\MVVMCrossWindowsCommonPlugin.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Nuget" CopyParameters="true">
+        Nuget\Nuget.vstemplate
+      </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
   <WizardExtension>

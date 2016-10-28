@@ -107,7 +107,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{2DACE03F
 		MVVMCross.Plugin.Template\Nuget\Nuget.vstemplate = MVVMCross.Plugin.Template\Nuget\Nuget.vstemplate
 		MVVMCross.Plugin.Template\Nuget\pack.ps1 = MVVMCross.Plugin.Template\Nuget\pack.ps1
 		MVVMCross.Plugin.Template\Nuget\Plugin.nuspec = MVVMCross.Plugin.Template\Nuget\Plugin.nuspec
-		MVVMCross.Plugin.Template\Nuget\Program.cs = MVVMCross.Plugin.Template\Nuget\Program.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IosBootstrapContent", "IosBootstrapContent", "{7C5F1E33-1806-41C0-88C8-C83A4E0F7A53}"

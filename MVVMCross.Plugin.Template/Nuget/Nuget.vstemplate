@@ -23,7 +23,6 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="$ext_pluginname$PluginBootstrap.cs.pp">MvvmCrossPluginBootstrap.cs.pp</ProjectItem>
       </Folder>
       <ProjectItem ReplaceParameters="true" TargetFileName="pack.ps1">pack.ps1</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

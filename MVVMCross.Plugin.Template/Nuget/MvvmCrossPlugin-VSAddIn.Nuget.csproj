@@ -37,7 +37,6 @@
     <None Include="IosBootstrapContent\$ext_pluginname$PluginBootstrap.cs.pp" />
     <None Include="$safeprojectname$.nuspec" />
     <None Include="pack.ps1" />
-    <None Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
